@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.casualcheck"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.camera" />
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        
+        >
+        
+        <activity
+            android:name="com.example.casualcheck.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.casualcheck.LoginActivity" />
+        <activity android:name=".home" ></activity>
+        <activity android:name=".doctorlogin" ></activity>
+        <activity android:name=".PhotoActivity" > </activity>
+        <activity android:name=".MakePhotoActivity"></activity>
+        <activity android:name=".AlertDialogManager"></activity>
+        <activity android:name=".doctr_login"></activity>
+        <activity android:name=".Generate_pid"></activity>
+        <activity android:name=".database"></activity>
+        <activity android:name=".database_local"></activity>
+        <activity android:name=".Registeration"></activity>
+        <activity android:name=".Listvw"></activity>
+        <activity android:name=".CameraPreview"></activity>
+        <activity android:name=".DrawOnTop"></activity>
+        <activity android:name=".Demo_tour"></activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="home0"></activity>
+        <activity android:name="efficiency"></activity>
+        <activity android:name="home12"></activity>
+        <activity android:name="home2"></activity>
+        <activity android:name="home23"></activity>
+        <activity android:name="home3"></activity>
+        <activity android:name="home34"></activity>
+        <activity android:name="home4"></activity>
+        <activity android:name="home45"></activity>
+        <activity android:name="home5"></activity>
+        <activity android:name="home56"></activity>
+        <activity android:name="home6"></activity>
+        <activity android:name="color_test1"></activity>
+        <activity android:name="color_test2"></activity>
+        <activity android:name="efficiency_color"></activity>
+        <activity android:name="List_of_test"></activity>
+       <activity android:name="email"></activity>
+       <activity android:name="SendBtn"></activity>
+       <activity android:name="com.example.casualcheck.Khome0" ></activity>
+       <activity android:name="com.example.casualcheck.Grid" ></activity>
+		<activity android:name="com.example.casualcheck.democolourtest" ></activity>
+    	 <activity android:name="com.example.casualcheck.Demovisual" ></activity>
+    <activity android:name="com.example.casualcheck.Msg" ></activity>
+    
+    </application>
+
+</manifest>

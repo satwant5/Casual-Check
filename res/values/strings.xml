@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+<string name="app_name">CasualCheck</string>
+  
+<string name="action_settings">Settings</string>
+   
+<string name="hello_world">Hello world!</string>
+
+<string name="btheye">Please take a clear picture of your both eyes wide open.</string>
+  
+<string name="righteye">Please take a clear picture of your right eye wide open</string>
+   
+<string name="lefteye">Please take a clear picture of your left eye wide open</string>
+   
+<string name="pills">Please take a clear picture of the pills prescribed by physician</string>
+ 
+ 
+ 
+ <string-array name="tips">
+	
+	<item >Protect eyes with anti-UV glass,if
+	you are outside the room or a sunny
+	place to minimize the impact of UV rays
+	and free radicals. It also very
+	recommended for people who work with
+	computer.</item>
+	
+	<item >Do not get used to seeing from close
+	range , switch views to distant places
+	for five minutes, do this every 15
+	minutes to reduce eyestrain.</item>
+	
+	<item >Reading in a fairly light with the
+correct position.</item>
+
+<item >Doing eye exercises every day to
+train the eye nerve, its give you to relax
+and get powerful vision. With glanced up
+and down, left and right, oblique left
+oblique right top-down and vice versa,
+then a circular motion clockwise and
+anti-clockwise respectively 5 -10 count.
+    
+</item>
+<item >Do routine exercise , it make your
+blood flow to the eyes smoothly.
+    
+</item>
+<item >Avoid using eye medications or
+vitamins without consulting with a
+doctor.
+    
+</item>
+<item >Perform routine inspection every
+six months for healthy eyes. Especially
+for eye that have specific problems.
+    
+</item>
+<item >If your two-wheeled vehicle
+users, we recommend using glasses
+or a helmet that has face protected.
+This is useful in order to reduce road
+dust on your eyes.
+    
+</item>
+<item >Washing the eyes with sprinkling
+of cold and clean water in the
+morning, evening and after
+anytime you are back from the
+outdoors is great step towards
+vision care as it helps remove
+pollutants that to accumulate in
+the eye.
+    
+</item>
+<item >Blinking often is one of the most
+important of all eye care tips as
+it helps the eyes to reduce the
+strain on the nerves associated
+with them. Anytime while
+reading, working on the computer
+or watching TV, regular and
+periodic blinking helps clarity in
+eyesight and reduces fatigue of
+the eyes.
+</item>
+
+<item >A bare foot walk on the grass in
+the gentle morning sun is yet
+another of the simple but
+powerful eye care tips that has
+been proven to be highly
+effective in maintaining good
+vision among people of all ages.
+</item>
+
+<item >While working for prolonged
+sessions at your work place,
+rubbing both palms together till
+they are warm and applying them
+to the eyes is the ideal ways to
+relax the eye muscles
+periodically which reduces the
+fatigue. 
+</item>
+
+<item >Placing cold tea bags on the
+eyes after a day’s work is an
+excellent means of distressing
+them and has the additional
+benefit of effectively preventing
+puffiness that commonly affects
+working people with age.
+</item>
+
+<item >The computer screen should be
+placed at an arm’s length from
+the eyes and positioned at least
+20 degrees below the direct gaze
+angle for minimum stress to the
+eyes.
+ </item>
+
+<item >Expand drinking mineral water
+to help prevent fatigue and dehydration,
+especially in air-conditioned room,
+because the body begins to store water
+for self-defense, and this could help
+keep the humidity around the eyes.
+ </item>
+
+<item >Eat foods that contain vitamins A,
+C,and E every day.
+    
+</item>
+
+</string-array>
+
+</resources>

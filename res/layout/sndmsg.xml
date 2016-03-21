@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical" 
+    android:background="@drawable/bkgimg"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="Your Message"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:typeface="serif"
+        />
+
+    <EditText
+        android:id="@+id/msgbody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="47dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Your message here!!"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/sendmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgbody"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/msg"
+        
+        android:width="150dip" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/casualeye1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye2"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye3"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye4"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye5"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye6"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye7"
+        android:duration="100"/>
+        <item
+        android:drawable="@drawable/casualeye9"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/casualeye9"
+        android:duration="100"/>
+
+</animation-list>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgimg"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Select the correct letter:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#1261c1"
+        android:textSize="35dp"
+         />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/brown"
+        android:gravity="fill"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/largebutton"
+            android:text="B"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/largebutton"
+            android:text="B"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/LinearLayout1"
+        android:background="@drawable/brown"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/largebutton"
+            android:text="B"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/largebutton"
+            android:text="B"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</RelativeLayout>
